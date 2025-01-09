@@ -4,6 +4,20 @@
 
 This project demonstrates introductory data exploration techniques using the Iris dataset. The dataset contains information about the Iris flower species, specifically the physical measurements of the flowers and their species classification. The goal of this project is to load the data, visualize the distribution of species, and understand the relationships between various features through scatter plots and histograms.
 
+### Quality Issues
+
+Typically clean, but check for:
+- Missing values (rare).
+- Outliers in measurements (e.g., extreme petal/sepal lengths).
+
+Cleaning:
+- Standardize numerical features for consistency.
+- Encode species labels numerically.
+
+Known Limitations:
+- Simplistic dataset with limited real-world relevance.
+- Only 150 samples, which can hinder advanced ML techniques.
+
 ### Dataset
 
 The Iris dataset was introduced by R.A. Fisher in 1936 and has become a classic in machine learning and data science. It contains the following columns:
