@@ -4,19 +4,26 @@
 
 This project demonstrates introductory data exploration techniques using the Iris dataset. The dataset contains information about the Iris flower species, specifically the physical measurements of the flowers and their species classification. The goal of this project is to load the data, visualize the distribution of species, and understand the relationships between various features through scatter plots and histograms.
 
+### Objectives
+
+The key objectives of this project are:
+
+- Data Loading: Import and inspect the Iris dataset.
+- Data Exploration: Understand the distribution of features and identify patterns.
+- Data Visualization:
+    - Create scatter plots to observe relationships between features.
+    - Generate histograms to visualize feature distributions.
+    - Analyze species-wise trends in the dataset.
+
 ### Quality Issues
 
-Typically clean, but check for:
-- Missing values (rare).
+Checked for:
+- Missing values (none found).
 - Outliers in measurements (e.g., extreme petal/sepal lengths).
 
 Cleaning:
 - Standardize numerical features for consistency.
 - Encode species labels numerically.
-
-Known Limitations:
-- Simplistic dataset with limited real-world relevance.
-- Only 150 samples, which can hinder advanced ML techniques.
 
 ### Dataset
 
@@ -37,6 +44,19 @@ This dataset contains 150 samples with 50 samples from each of the three Iris sp
 - Histograms: Histograms of the individual features (SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm) were plotted to observe their distribution.
 - Boxplots: Boxplots were used to check for any outliers in the features and visualize the range of values for each feature.
 - Scatterplots: Scatterplots were used to visualize the relationships between the sepal and petal measurements, with color-coding to differentiate the species.
+
+### Results
+
+Feature Relationships:
+- Scatter plots reveal strong linear relationships between petal length and petal width.
+- Sepal measurements show more overlap across species compared to petal measurements.
+
+Species Distribution:
+- Each species has distinct patterns in feature measurements, making it easier to classify.
+
+Summary Statistics:
+- Total observations: 150
+- Distribution across species: 50 observations per species.
 
 ### Source
 
