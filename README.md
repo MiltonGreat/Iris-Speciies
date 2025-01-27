@@ -45,6 +45,10 @@ This dataset contains 150 samples with 50 samples from each of the three Iris sp
 - Boxplots: Boxplots were used to check for any outliers in the features and visualize the range of values for each feature.
 - Scatterplots: Scatterplots were used to visualize the relationships between the sepal and petal measurements, with color-coding to differentiate the species.
 
+##### Boxplot checks for outliers in the features
+
+![screenshot-github com-2025 01 27-12_28_37](https://github.com/user-attachments/assets/8a08ea50-eb59-4df3-9325-2055a36f8c09)
+
 ### Results
 
 Feature Relationships:
@@ -54,7 +58,7 @@ Feature Relationships:
 Species Distribution:
 - Each species has distinct patterns in feature measurements, making it easier to classify.
 
-### # Next Steps
+### Next Steps
 
 Once we have cleaned the data and understood the relationships between features we can proceed with building machine learning models (e.g Logistic, KNN, or Random Forest for classification) to predict the species of the iris flowers.
 
