@@ -2,7 +2,7 @@
 
 ### Overview
 
-This project demonstrates introductory data exploration techniques using the Iris dataset. The dataset contains information about the Iris flower species, specifically the physical measurements of the flowers and their species classification. The goal of this project is to load the data, visualize the distribution of species, and understand the relationships between various features through scatter plots and histograms.
+This project demonstrates data exploration techniques using the Iris dataset. The dataset contains information about the Iris flower species, specifically the physical measurements of the flowers and their species classification. The goal of this project is to load the data, visualize the distribution of species, and understand the relationships between various features through scatter plots and histograms.
 
 ### Objectives
 
@@ -54,9 +54,9 @@ Feature Relationships:
 Species Distribution:
 - Each species has distinct patterns in feature measurements, making it easier to classify.
 
-Summary Statistics:
-- Total observations: 150
-- Distribution across species: 50 observations per species.
+### # Next Steps
+
+Once we have cleaned the data and understood the relationships between features we can proceed with building machine learning models (e.g Logistic, KNN, or Random Forest for classification) to predict the species of the iris flowers.
 
 ### Source
 
