@@ -35,6 +35,10 @@ This dataset contains 150 samples with 50 samples from each of the three Iris sp
 - Missing Values: No missing values were detected in the dataset.
 - Outliers: Outliers were detected in the numerical features using boxplots. These were handled using the IQR method to ensure data quality.
 
+##### Boxplot checks for outliers in the features
+
+![screenshot-github com-2025 01 27-12_28_37](https://github.com/user-attachments/assets/8a08ea50-eb59-4df3-9325-2055a36f8c09)
+
 **Cleaning Steps**
 - Standardized the numerical features to bring them to a common scale.
 - Encoded the categorical target variable ("Species") as numeric labels using Label Encoding.
@@ -46,10 +50,6 @@ This dataset contains 150 samples with 50 samples from each of the three Iris sp
 - Boxplots: Boxplots were used to check for any outliers in the features and visualize the range of values for each feature.
 - Scatterplots: Scatterplots were used to visualize the relationships between the sepal and petal measurements, with color-coding to differentiate the species.
 - Correlation Heatmap: A heatmap of the feature correlations was created to understand the linear relationships between features and their potential for classification tasks.
-
-##### Boxplot checks for outliers in the features
-
-![screenshot-github com-2025 01 27-12_28_37](https://github.com/user-attachments/assets/8a08ea50-eb59-4df3-9325-2055a36f8c09)
 
 ### Key Findings
 
